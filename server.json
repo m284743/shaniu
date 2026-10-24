@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.m284743/shaniu",
   "title": "Agent Shaniu (SHANIU)",
-  "description": "MCP server for Agent Shaniu (SHANIU), the first AI-driven community meme coin on BNB Smart Chain. Read live on-chain stats, prepare unsigned mint/trade transaction intents, and manage referral rewards. Ownership renounced; minting restricted on-chain to Binance Agent ID holders.",
+  "description": "First AI-driven community meme coin on BSC. Mint, trade and referral tools for AI agents.",
   "version": "1.0.0",
   "websiteUrl": "https://bn.shaniu.ai",
   "repository": {
