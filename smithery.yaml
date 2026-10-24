@@ -1,0 +1,17 @@
+# Smithery configuration — https://smithery.ai
+runtime: node
+startCommand:
+  type: stdio
+  commandFunction: |
+    (config) => ({
+      command: 'node',
+      args: ['server.js'],
+      env: config.bscRpc ? { BSC_RPC: config.bscRpc } : {}
+    })
+  configSchema:
+    type: object
+    properties:
+      bscRpc:
+        type: string
+        description: Optional custom BSC RPC endpoint (defaults to the public bsc-dataseed endpoint)
+  exampleConfig: {}
