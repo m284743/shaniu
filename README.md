@@ -44,6 +44,17 @@ Environment: `BSC_RPC` (optional, defaults to `https://bsc-dataseed.bnbchain.org
 }
 ```
 
+
+## Agent Skill (one-command install for AI agents)
+
+Any agent runtime that supports the Skills ecosystem (Claude Code, OpenClaw, Codex, Cursor, ...) can learn SHANIU in one command:
+
+```bash
+npx skills add m284743/shaniu/skill
+```
+
+The skill teaches the agent how to claim (mint), trade on the order book, and handle referrals via the Binance Agentic Wallet (baw) — preview first, user confirms in the Binance App, keys never leave the wallet.
+
 ## Referral quick reference
 
 - Invite link: `https://bn.shaniu.ai/?ref=<INVITER_ADDRESS>`
